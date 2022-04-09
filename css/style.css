@@ -33,3 +33,38 @@
 	display: block;
 	margin: 20px auto;
 }
+.left-wraper{
+	float: left;
+	background-color: red;
+	width: 550px;
+}
+.right-wraper{
+	float: right;
+	background-color: yellow;
+	width: 550px;
+}
+.image1{
+	float: right;
+	width: 200px;
+}
+.image2{
+	float:left;
+	width: 200px;
+}
+.text-p1{
+	width: 300px;
+	float: left;
+}
+.text-p2{
+	width: 300px;
+	float: right;
+}
+.box{
+	width: 1170px;
+	margin: 0 auto; 
+}
+.box::after{
+	content: '';
+	clear:both;
+	display: block;
+}
